@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conversion de devise</title>
+</head>
+<body>
+
+<h2>Conversion de devise</h2>
+
+<div>
+  <label for="amount">Montant:</label>
+  <input type="number" id="amount" name="amount">
+</div>
+
+<div>
+  <label for="from">De:</label>
+  <select id="from" name="from">
+    <option value="EUR">Euro (EUR)</option>  <!-- Les options seront ajoutées par JavaScript -->
+    <option value="USD">USD (EUR)</option>  <!-- Les options seront ajoutées par JavaScript -->
+    <option value="GBP">GBP (EUR)</option>  <!-- Les options seront ajoutées par JavaScript -->
+
+  </select>
+</div>
+
+
+
+<div>
+  <label for="to">Vers:</label>
+  <select id="to" name="to">
+    <option value="EUR">Euro (EUR)</option>  <!-- Les options seront ajoutées par JavaScript -->
+    <option value="USD">USD (EUR)</option>  <!-- Les options seront ajoutées par JavaScript -->
+    <option value="GBP">GBP (EUR)</option>  <!-- Les options seront ajoutées par JavaScript -->  </select>
+</div>
+
+<button id="convertButton">Convertir</button>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
